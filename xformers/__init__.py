@@ -20,7 +20,7 @@ logger = logging.getLogger("xformers")
 _has_cpp_library: bool = _cpp_lib._cpp_library_load_exception is None
 
 # Set to true to utilize functorch
-_is_functorch_available: bool = False
+_is_functorch_available: bool = True
 _is_opensource: bool = True
 
 
